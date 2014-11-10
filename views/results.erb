@@ -1,0 +1,16 @@
+
+<head>
+	<link rel="stylesheet" href="/css.css">
+</head>
+<body>
+	<div>
+		<h1><a href="/" class="titleLink">the Mantra</a></h1>
+		<h5>mashable+sinatra</h5>
+	</div>
+	<div>
+		<h3><%= @current_story[:title] %></h3>
+		<h6><%= @current_story[:author] %></h6>
+		<img src="<%= @current_story[:image] %>" alt="something"> 
+		<p><%= @current_story[:text] %></p>
+	</div>
+</body>

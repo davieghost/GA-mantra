@@ -1,0 +1,16 @@
+
+<head>
+	<link rel="stylesheet" href="/css.css">
+</head>
+<body>
+	<div>
+		<h1>the Mantra</h1>
+		<h5>mashable+sinatra</h5>
+	</div>
+	<div>
+		<% @rising_stories.each do |story| %>
+			<a href="/results?id=<%= story['_id'] %>"><%= story['title'] %></a><br><br>
+			
+		<% end %>
+	</div>
+</body>

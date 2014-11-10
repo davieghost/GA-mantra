@@ -1,0 +1,15 @@
+
+<head>
+	<link rel="stylesheet" href="/css.css">
+</head>
+<body>
+	<div>
+		<h1>the Mantra</h1>
+		<h5>mashable+sinatra</h5>
+	</div>
+	<div>
+		<% @new_stories.each do |title| %>
+			<a href="/results?id=<%= title['_id'] %>"><%= title['title'] %></a><br><br>
+		<% end %>
+	</div>
+</body>

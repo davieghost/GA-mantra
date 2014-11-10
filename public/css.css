@@ -1,0 +1,53 @@
+body {
+	background: #fefefe;
+}
+::selection {
+	color: #fefefe;
+	background: #333;
+}
+a {
+	background: none;
+	border: none;
+	border-bottom: 0.0625em solid rgba(194, 0, 0, 0.3);
+	padding: 0;
+	padding-bottom: 0.2333em;
+	color: rgba(194, 41, 41, 0.5);
+	font-size: 1em;
+	font-weight: 200;
+	font-family: sans-serif;
+	margin-right: 0.625em;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+	border-bottom: 0.0625em solid rgb(0,0,0);
+	cursor: pointer;
+}
+div {
+	margin: 1.25em auto;
+	width: 38.75em;
+	max-width: 100%;
+}
+h1, h3, h5, h6, p {
+	font-family: sans-serif;
+	font-weight: 200;
+	margin-bottom: 0em;
+	color: rgba(78,78,78,0.6);
+}
+h5 {
+	margin-top: 0.2333em;
+}
+h6 {
+	margin-top: 0.356em;
+	margin-bottom: 1.625em;
+}
+h3 {
+	color: rgba(19, 196, 249, 0.6);
+}
+img {
+	width: 100%;
+}
+.titleLink, .titleLink:hover {
+	border-bottom: none;
+	color: rgba(78,78,78,0.6);
+}
