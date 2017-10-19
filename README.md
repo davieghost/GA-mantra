@@ -1,4 +1,2 @@
-Mantra
-======
+### Mashable + Sinatra = Mantra assignment for BEWD-generalAssembly
 
-Mashable + Sinatra
